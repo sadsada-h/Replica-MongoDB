@@ -1,0 +1,15 @@
+#run code
+
+sadsa@DESKTOP-NP4ISN3 MINGW64 ~
+$ ps -ef | grep mongod
+   sadsa    1208    1165 cons0    16:06:16 /c/Program files/MongoDB/Server/5.0/bin/mongongod                                                                               ong
+   sadsa    1212    1165 cons0    16:06:25 /c/Program files/MongoDB/Server/5.0/bin/mongongod
+   sadsa    1216    1165 cons0    16:06:32 /c/Program files/MongoDB/Server/5.0/bin/mongod
+
+sadsa@DESKTOP-NP4ISN3 MINGW64 ~
+$ kill 1208
+
+sadsa@DESKTOP-NP4ISN3 MINGW64 ~
+$ ps -ef | grep mongod
+   sadsa    1212    1165 cons0    16:06:25 /c/Program files/MongoDB/Server/5.0/bin/mongod
+   sadsa    1216    1165 cons0    16:06:32 /c/Program files/MongoDB/Server/5.0/bin/mongod
